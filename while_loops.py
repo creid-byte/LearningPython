@@ -15,3 +15,15 @@ while i < len(numbers):
 
 if success:
     print("One was large enough")
+
+print('\n')
+
+# Do while loop
+    # executes one time even if true or false
+
+k = 90
+print(k)
+while k<10:
+    print(k)
+    k +=1
+# k will be printed atleast one time 
