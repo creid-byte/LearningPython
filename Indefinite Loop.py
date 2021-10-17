@@ -1,6 +1,8 @@
-print('do you want to continue? Y/N')
-response = input()
 
-while response=='Y':
-    print('do you want to continue? Y/N')
+
+# indefinite loop and characters
+while True:
+    print('Continue? Y/N')
     response = input()
+    if response != 'Y' and response != 'y':
+        break
