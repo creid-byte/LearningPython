@@ -16,5 +16,17 @@ def good_morning(name='User', morning_person= True):
 
 print(good_morning("Chris", False))
 
+print('\n')
 
+def print_info(name, age, email):
+        print(name + ' is ' + str(age) + '. Reached at ' + email)
 
+print_info('chris', 13, 'chris@gmail')
+
+print('\n')
+
+list = [['chris', 13, 'chris@gmail'],
+        ['pixie', 8, 'pixie@gmail']]
+
+for l in list:
+    print_info(*l)
