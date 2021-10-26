@@ -1,1 +1,6 @@
+list1 = ['1','2','3']
+list2 = ['1','2','3', '20',9]
 
+# find the differences in the list
+diff = list(set(list1)-set(list2))
+print(diff)
